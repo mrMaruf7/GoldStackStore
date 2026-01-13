@@ -62,7 +62,7 @@ export const isSellerOrAdmin = (req, res, next) => {
 };
 export const mailgun = () =>
   mg({
-    apiKey:"e308b07929c81b9a2e5fd92dd5515790-7764770b-e1bd7387",
+    apiKey:"cd7c735e5d0fb7760936078720e3f56a-42b8ce75-8fc2b334",
     domain: "sandboxd353cf8f8d55440c839be8a057011ceb.mailgun.org",
   });
 
@@ -127,4 +127,5 @@ export const payOrderEmailTemplate = (order) => {
   Thanks for shopping with us.
   </p>
   `;
+
 };
